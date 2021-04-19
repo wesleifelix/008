@@ -5,9 +5,9 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="widget">
-                        <h3>quem somos</h3>
+                        <h3>Quem somos</h3>
                         <ul>
-                            <li><a href="#">CNPJ: 000000000000</a></li>
+                            
                             <li><a href="#"></a></li>
                             <li><a href="#"></a></li>
                             <li><a href="#"></a></li>
@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    &copy; 2013 <a target="_blank" href="https://mercadooito.com.br" >Desing by Mercado 8 ® </a>. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
