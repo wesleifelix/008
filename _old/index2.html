@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>008 Cards</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/dashboard/">
+    
+     
+    
+    <meta name="theme-color" content="#563d7c">
+    
+    
+        <style>
+          .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+    
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+        </style>
+        <!-- Custom styles for this template -->
+
+      <style type="text/css">/* Chart.js */
+    @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+    </head>
+
+  <body>
+  
+
+<div class="container-fluid">
+  <div class="row">
+   
+    
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-12 px-4"><div style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;" class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Dashboard</h1>
+
+        <iframe id="#table-entrada">
+
+        </iframe>
+      </div>
+
+      
+    </main>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+       <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <script>
+            $(function(){
+
+              datavar = ['teste': "teste"];
+                $.post("http://144.217.158.124:8888/gerencial/ecommerce.html?token=123456", datavar, function(data){
+                    $("#table-entrada").attr('src',data);
+                });
+               
+              
+            
+
+            $("#btnentrada").click(function(e){
+              e.preventDefault();
+              $.get("listanfeentrada.php", function(data){
+                    $("#table-entrada").html(data);
+                });
+                $.get("processarentrada.php", function(data){
+                    //$("#table-entrada").html(data);
+                });
+
+
+            });
+            $("#btnsaida").click(function(e){
+              e.preventDefault();
+              $.get("listanfesaida.php", function(data){
+                    $("#table-saida").html(data);
+                });
+                $.get("processarsaida.php", function(data){
+                    alert("Processado");
+                });
+
+
+            });
+
+            $("#btnsaidamercado").click(function(e){
+              e.preventDefault();
+              $.get("listanfesaidamercado.php", function(data){
+                    $("#table-saida").html(data);
+                });
+               /* $.get("processarsaida.php", function(data){
+                    alert("Processado");
+                });
+                */
+
+            });
+
+          });
+        </script>
+
+</body></html>
