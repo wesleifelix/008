@@ -4,10 +4,10 @@
 **************************/
 
 body {
-  
   font-family: 'Open Sans', sans-serif;
   color:rgb(0, 0, 1);
   line-height: 22px;
+  font-size: 62.5%;
 }
 
 #alegre {
@@ -30,11 +30,11 @@ a {
 p {
   color: #3e4095;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 #title-melhores {
-  font-size: 35px;
+  font-size: 3.5rem;
   color: #34368a;    
 }
 
@@ -101,7 +101,7 @@ p {
 
 #contato {
   text-align: center;
-  font-size: 50px;
+  font-size: 5.0rem;
   padding: 0px 0px 45px 0px;
   color: #34368a;
 }
@@ -134,7 +134,7 @@ h6 {
 
 
 #text-digital {
-  font-size: 28px;
+  font-size: 2.8rem;
   position: relative;
   padding: 76px 0px 0px 50px;
   margin-block: 20px;
@@ -156,7 +156,7 @@ h6 {
 }
 
 #text-digitalb {
-  font-size: 28px;
+  font-size: 2.8rem;
   position: relative;
   padding: 76px 0px 0px 10px;
   margin-block: 20px;
@@ -181,25 +181,25 @@ h6 {
 }
 
 h1{
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #162056;
   text-align: center;
   padding: 0 0 70px;
 }
 
 h2{
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 
 h3{
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #222;
   font-weight: 400;
   line-height: 24px;
 }
 
 h4{
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 
 #firstsec {
@@ -232,30 +232,9 @@ a:hover, a:focus {
 
 }
 
-@media(max-width : 375px) { /* largura maxiam ate o nde aplica o css */
-    #text-digitalb {
-      font-size: 28px;
-      color: #06fd44;
-      position: relative;
-      padding: 66px 0px 0px 10px;
-      margin-block: 20px;
-      float: right;
-      display: flex;
-      margin: 0 auto;
-      z-index: 9999;
-  }
-
-  img{
-    display: block;
-    position: flex;
-    
-    
-  }
-}
-
-.btn-group-lg > .btn, .btn-lg {
+  .btn-group-lg > .btn, .btn-lg {
   padding: .5rem 1rem;
-  font-size: 18px;
+  font-size: 1.8rem;
   border-radius: 1.5rem;
 }
 
@@ -308,7 +287,7 @@ a:focus {
 }
 
 .center h2{
-  font-size: 36px;
+  font-size: 3.6rem;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -341,7 +320,7 @@ body > section {
 }
 
 .lead{
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 24px;
   font-weight: 400;
 }
@@ -380,8 +359,51 @@ body > section {
     transform: scale(1);
   }
 }
+@media(max-width:1200px){
+}
+@media(max-width: 375px){
+  #digital #img-digital {
+    width: 100%;
+}
+  #text-digital {
+    font-size: 2.0rem;
+    padding: 40px 0px 0px 40px;
+  }
+  #text-digital1 {
+    padding: 0px 0px 0px 40px;
+  }
+  .btn, .btn-lg {
+    padding: .5rem 0rem;
+    font-size: 1.2rem;
+  }
+  #digital2{
+    height: 800px;
+  }
+  #digital2 #img-digital {
+    width: 100%;
+    padding-top: 500px;
+}
+h2#text-digitalb {
+  font-size: 2rem;
+  position: relative;
+  padding: 2px 0px 0px 2px;
+  margin-block: 20px;
+}
+  p#text-digital1b {
+    padding: 10px 0px 0px 10px;
+  }
+  h1#perguntas{
+    font-size: 2.0rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+}
+p {
+  
+  font-size: 1.0rem;
+}
+}
 
-/*************************
 *******Header******
 **************************/
 
@@ -555,7 +577,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-brand {
-  font-size: 36px;
+  font-size: 3.6rem;
   line-height: 50px;
   color: #fff;
 }
@@ -817,7 +839,7 @@ input.search-form:hover {
 }
 
 .feature-wrap i{
-  font-size: 48px;
+  font-size: 4.8rem;
   height: 110px;
   width: 110px;
   margin: 3px;
@@ -875,7 +897,7 @@ input.search-form:hover {
 }
 
 .recent-work-wrap .recent-work-inner h3 a{
-  font-size: 24px;
+  font-size: 2.4rem;
   color: #fff;
 }
 
@@ -930,7 +952,7 @@ input.search-form:hover {
 }
 
 .services-wrap h3 {
-  font-size: 20px;
+  font-size: 2.0rem;
   margin: 10px 0;
 }
 
@@ -993,7 +1015,7 @@ input.search-form:hover {
   height: 20px;
   line-height: 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 700;
   top: -30px;
   border-radius: 2px;
@@ -1091,7 +1113,7 @@ input.search-form:hover {
 a.accordion-toggle  i{
   width: 45px;
   line-height: 44px;
-  font-size: 20px;
+  font-size: 2.0rem;
   margin-top: -10px;
   text-align: center;
   margin-right: -15px;
@@ -1185,7 +1207,7 @@ a.accordion-toggle  i{
 
 .testimonial-inner {
   color:#858586;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .testimonial-inner .pull-left{
@@ -1244,7 +1266,7 @@ a.accordion-toggle  i{
 .contact-info i{
   width: 60px;
   height: 60px;
-  font-size: 40px;
+  font-size: 4.0rem;
   line-height: 60px;
   color: #fff;
   background: #000;
@@ -1273,7 +1295,7 @@ a.accordion-toggle  i{
 .about-us h2, 
 .skill_text h2 {
   color:#4e4e4e;
-  font-size: 30px;
+  font-size: 3.0rem;
   font-weight: 600;
 }
 
@@ -1296,7 +1318,7 @@ a.accordion-toggle  i{
 #carousel-slider a i {
   border: 1px solid #777;
   border-radius:50%;
-  font-size: 28px;
+  font-size: 2.8rem;
   height: 50px;
   padding: 8px;
   position: absolute;
@@ -1342,7 +1364,7 @@ a.accordion-toggle  i{
   background:#f2f2f2;
   border-radius: 100%;
   color: #FFFFFF;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: bold;
   height: 200px;
   position: relative;
@@ -1355,7 +1377,7 @@ a.accordion-toggle  i{
 
 .sinlge-skill p em {
   color: #FFFFFF;
-  font-size: 38px;
+  font-size: 3.8rem;
 }
 
 .sinlge-skill p {
@@ -1454,7 +1476,7 @@ a.accordion-toggle  i{
 
 .team .btn {
   background:transparent;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 3px;
   padding: 1px 5px;
@@ -1483,7 +1505,7 @@ ul.social_icons li  a i{
   color: #FFFFFF;
   height: 25px;
   line-height: 25px;
-  font-size: 12px;
+  font-size: 1.2rem;
   padding: 0;
   text-align: center;
   width: 25px;
@@ -1709,7 +1731,7 @@ ul.social_icons li  a i{
 .request h4 a{
   background:#c52d2f;
   color: #fff;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: normal;
   border-radius: 3px;
   padding: 5px 15px;
@@ -1792,7 +1814,7 @@ ul.social_icons li  a i{
 
 .text-left {
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-top: 15px;
 }
 
@@ -1818,7 +1840,7 @@ ul.social_icons li  a i{
 
 .portfolio-filter > li a {
   background: none repeat scroll 0 0 #FFFFFF;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   margin-right: 20px;
   text-transform: uppercase;
@@ -1933,7 +1955,7 @@ ul.social_icons li  a i{
 
 .pricing-area span {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .pricing-area h3, 
@@ -1955,7 +1977,7 @@ ul.social_icons li  a i{
 .pricing-area ul li {
   list-style: none;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
@@ -2190,7 +2212,7 @@ ul.social_icons li  a i{
 #contact-page .contact-form 
 .form-group label {
   color: #4E4E4E;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 
@@ -2341,7 +2363,7 @@ ul.faq li span.number {
   text-align: center;
   background: #34495e;
   color: #fff;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 ul.faq li > div {
@@ -2388,7 +2410,7 @@ ul.faq li > div h3 {
 
 .blog .blog-item .blog-content h2 {
   margin-top: 0;
-  font-size: 30px;
+  font-size: 3.0rem;
 }
 
 .readmore{
@@ -2401,7 +2423,7 @@ ul.faq li > div h3 {
   /* font-weight: 300 */}
 
 .blog .blog-item .blog-content h4 {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .post-tags {
@@ -2417,7 +2439,7 @@ ul.faq li > div h3 {
   background: #f5f5f5;
   border-top: 1px solid #fff;
   display: block;
-  font-size: 12px;
+  font-size: 1.2rem;
   overflow: hidden;
   padding: 5px;
   text-align: left;
@@ -2436,7 +2458,7 @@ ul.faq li > div h3 {
 }
 
 .blog .blog-item .entry-meta > span a {
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-left: 3px;
   font-weight: 300;
   color: #888;
@@ -2446,7 +2468,7 @@ ul.pagination > li > a {
   border: 1px solid #F1F1F1;
   margin-right:5px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   padding: 5px 14px;
 }
 
@@ -2553,7 +2575,7 @@ ul.sidebar-gallery {
   border: 1px solid #DDDDDD;
   border-radius: 39px;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 2.0rem;
   height: 30px;
   margin-right: 3px;
   padding-top: 7px;
@@ -2600,7 +2622,7 @@ ul.sidebar-gallery {
 #comments_title{
    color:#4e4e4e;
    font-weight:700px;
-   font-size:20px;
+   font-size:2.0rem;
    margin-top:60px;
    margin-bottom:40px;
 }
@@ -2712,7 +2734,7 @@ shortcodes page css
 
 .shortcode-item h2 {
   color: #4E4E4E;
-  font-size: 24px;
+  font-size: 2.4rem;
   margin-bottom: 22px;
   margin-top: 0;
   font-weight: 600
@@ -2726,14 +2748,14 @@ shortcodes page css
 #bottom {
   background: #34368a;;
   border-bottom: 3px solid #fff;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 #bottom h3 {
   margin-top: 0;
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-size:22px;
+  font-size:2.2rem;
   color: #fff;
 }
 
@@ -2800,7 +2822,7 @@ shortcodes page css
 #digital #img-digital {
   display: flex;
   right: 0;
-  position: absolute;
+  position: relative;
 }
 
 #digital2 {
@@ -2840,7 +2862,7 @@ shortcodes page css
 
 .steps-bank h3 {
   color: indigo;
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 700;
 }
 
@@ -2854,7 +2876,7 @@ shortcodes page css
 }
 
 .steps-bank p b {
-  font-size: 20px;
+  font-size: 2.0rem;
   text-align: left;
   color: #162056;
 }

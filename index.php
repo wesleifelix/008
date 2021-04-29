@@ -84,7 +84,7 @@ require_once "header.php";?>
                 </p>                      
             </div>
             <div class="col-md-7">
-                <img src="images/woman-yellow.png" id="img-digital">
+                <img src="images/digital-woman.png" id="img-digital">
             </div>
         </div>
     </section>
@@ -123,8 +123,7 @@ require_once "header.php";?>
             <div class="row">
                 <!-- Colun 1 -->
                 <div class="col-lg-4 col-md-6">
-                	<img src="images/cartao-verde.png" id="img-digital">
-                    <div class="">
+                    <div class="count-box">
                         <div class="text">
                             
                         </div> 
@@ -134,17 +133,13 @@ require_once "header.php";?>
                 </div>
                 <!-- Colun 2 -->
                 <div class="col-lg-4 col-md-6">
-                    <img src="images/cartao-cinza.png" id="img-digital">
-                    <div class="">
-                        <div class="text">
+                    <div class="count-box">
                         
                     </div>
                 </div>
                 <!-- Colun 3 -->
                 <div class="col-lg-4 col-md-6">
-                    <img src="images/cartao-azul.png" id="img-digital">
-                    <div class="">
-                        <div class="text">
+                    <div class="count-box">
 
                     </div>
                 </div>
